@@ -21,6 +21,9 @@ var car = {
         } else {
             this.isTurnedOn = false;
         }
+    },
+    fly: function () {
+        alert('fly');
     }
 }
 console.log("Hello World!");
